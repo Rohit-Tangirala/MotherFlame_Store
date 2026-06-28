@@ -1,0 +1,255 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Rohit Admin",
+      "email": "2410030030cse@gmail.com",
+      "password_hash": "$2b$10$WT3KXRn0ZDhw8/1RBOjtTuz78f/DeU.QctC9SJxSieHApHTpYz88y",
+      "role": "admin",
+      "created_at": "2026-06-27T12:45:28.036Z"
+    },
+    {
+      "id": 2,
+      "name": "Steven",
+      "email": "kamartajdoctor2016@gmail.com",
+      "password_hash": "$2b$10$WGFZxMeoBNt8C0ynTqRORe72a1m/vGjuZng5kTbDmttuofWKQXgfG",
+      "role": "user",
+      "created_at": "2026-06-27T13:11:46.291Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nordic Minimalist Lounge Chair",
+      "description": "Sleek wooden accents with premium wool blend cushions. Perfect for any modern living space or study.",
+      "price": 299.99,
+      "stock": 15,
+      "category": "Furniture",
+      "image_url": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:45:27.926Z"
+    },
+    {
+      "id": 2,
+      "name": "Aura Matte Desk Lamp",
+      "description": "Dimmable brass-finished table accessory with dynamic warm/cool light adjustments and wireless phone charging base.",
+      "price": 89.5,
+      "stock": 24,
+      "category": "Lighting",
+      "image_url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:45:27.926Z"
+    },
+    {
+      "id": 3,
+      "name": "Apex Noise-Cancelling Headphones",
+      "description": "Acoustically superior wireless over-ear headphones with custom spatial audio and up to 45 hours of battery life.",
+      "price": 199,
+      "stock": 10,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:45:27.926Z"
+    },
+    {
+      "id": 4,
+      "name": "Suede Travel Duffel Bag",
+      "description": "Waterproof full-grain suede exterior with a dedicated laptop compartment and shoe separation bag.",
+      "price": 145,
+      "stock": 8,
+      "category": "Accessories",
+      "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:45:27.926Z"
+    },
+    {
+      "id": 5,
+      "name": "Minimalist Ceramic Vase Set",
+      "description": "Set of three earthy matte terracotta vases in varying sizes to elevate bookshelves and mantelpieces.",
+      "price": 45,
+      "stock": 30,
+      "category": "Decor",
+      "image_url": "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:45:27.926Z"
+    },
+    {
+      "id": 6,
+      "name": "Bespoke Leather Notebook",
+      "description": "Refillable, rich brown leather cover containing hand-stitched 120GSM fountain-pen friendly cotton sheets.",
+      "price": 32,
+      "stock": 50,
+      "category": "Stationery",
+      "image_url": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:45:27.926Z"
+    },
+    {
+      "id": 7,
+      "name": "Velvet Accent Armchair",
+      "description": "Deep emerald velvet fabric with brushed gold legs. Elegant mid-century style comfort for any living space or study.",
+      "price": 349.99,
+      "stock": 11,
+      "category": "Furniture",
+      "image_url": "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:56:00.000Z"
+    },
+    {
+      "id": 8,
+      "name": "Solid Oak Coffee Table",
+      "description": "Handcrafted solid white oak wood coffee table featuring clean joinery, minimalist lines, and a spacious lower storage shelf.",
+      "price": 219,
+      "stock": 7,
+      "category": "Furniture",
+      "image_url": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:56:00.000Z"
+    },
+    {
+      "id": 9,
+      "name": "Industrial Floor Arc Lamp",
+      "description": "Sleek matte black steel floor lamp with an adjustable curved dome shade and a heavy, sturdy white marble base.",
+      "price": 159,
+      "stock": 14,
+      "category": "Lighting",
+      "image_url": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:56:00.000Z"
+    },
+    {
+      "id": 10,
+      "name": "Concrete Pendant Light",
+      "description": "Industrial-chic cylindrical cast concrete pendant ceiling light with a beautifully textured raw gray finish.",
+      "price": 65,
+      "stock": 20,
+      "category": "Lighting",
+      "image_url": "https://images.unsplash.com/photo-1543294001-f7cbfe92237e?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:56:00.000Z"
+    },
+    {
+      "id": 11,
+      "name": "Minimalist Mechanical Keyboard",
+      "description": "Premium 65% wireless mechanical keyboard with quiet linear tactile switches, solid aluminum frame, and clean white LED backlighting.",
+      "price": 125,
+      "stock": 18,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:56:00.000Z"
+    },
+    {
+      "id": 12,
+      "name": "Smart Ambient Wake-Up Clock",
+      "description": "Simulates natural sunrise to wake you up gently. Includes dynamic color cycles, guided breathing, nature soundscapes, and an FM radio.",
+      "price": 79.99,
+      "stock": 25,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:56:00.000Z"
+    },
+    {
+      "id": 13,
+      "name": "Classic Leather Cardholder",
+      "description": "Ultra-slim card holder handcrafted from vegetable-tanned full-grain leather, featuring 4 card slots and a lined middle cash compartment.",
+      "price": 28,
+      "stock": 39,
+      "category": "Accessories",
+      "image_url": "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:56:00.000Z"
+    },
+    {
+      "id": 14,
+      "name": "Stainless Steel Water Bottle",
+      "description": "Double-wall vacuum insulated flask that keeps drinks icy cold for up to 24 hours or steaming hot for up to 12 hours. BPA-free design.",
+      "price": 35,
+      "stock": 35,
+      "category": "Accessories",
+      "image_url": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:56:00.000Z"
+    },
+    {
+      "id": 15,
+      "name": "Abstract Canvas Wall Art Set",
+      "description": "Set of two textured monochrome abstract art prints on heavy gallery-wrapped canvas, framed in sustainable natural oak shadow boxes.",
+      "price": 95,
+      "stock": 10,
+      "category": "Decor",
+      "image_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:56:00.000Z"
+    },
+    {
+      "id": 16,
+      "name": "Scented Soy Wax Candle Set",
+      "description": "Three hand-poured natural soy wax candles in minimalist jars. Aromatherapeutic scents: Sandalwood Amber, Fresh Lavender, and Wild Eucalyptus.",
+      "price": 38.5,
+      "stock": 21,
+      "category": "Decor",
+      "image_url": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:56:00.000Z"
+    },
+    {
+      "id": 17,
+      "name": "Sleek Brass Fountain Pen",
+      "description": "Perfected weight-balanced solid brass fountain pen with a precision gold-plated German fine-point nib and reusable piston ink converter.",
+      "price": 55,
+      "stock": 15,
+      "category": "Stationery",
+      "image_url": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:56:00.000Z"
+    },
+    {
+      "id": 18,
+      "name": "Minimalist Felt Desk Organizer Pad",
+      "description": "Premium double-layered merino wool felt desk mat that protects your wood table, muffles typing sounds, and enables flawless optical mouse tracking.",
+      "price": 24.5,
+      "stock": 28,
+      "category": "Stationery",
+      "image_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=600",
+      "created_at": "2026-06-27T12:56:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "total": 349.99,
+      "status": "delivered",
+      "created_at": "2026-06-27T13:01:36.308Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "total": 219,
+      "status": "pending",
+      "created_at": "2026-06-27T13:10:47.890Z"
+    },
+    {
+      "id": 3,
+      "user_id": 2,
+      "total": 66.5,
+      "status": "pending",
+      "created_at": "2026-06-27T13:12:02.514Z"
+    }
+  ],
+  "order_items": [
+    {
+      "id": 1,
+      "order_id": 1,
+      "product_id": 7,
+      "quantity": 1,
+      "price": 349.99
+    },
+    {
+      "id": 2,
+      "order_id": 2,
+      "product_id": 8,
+      "quantity": 1,
+      "price": 219
+    },
+    {
+      "id": 3,
+      "order_id": 3,
+      "product_id": 13,
+      "quantity": 1,
+      "price": 28
+    },
+    {
+      "id": 4,
+      "order_id": 3,
+      "product_id": 16,
+      "quantity": 1,
+      "price": 38.5
+    }
+  ]
+}

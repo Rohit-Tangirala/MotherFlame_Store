@@ -1,0 +1,8 @@
+{
+  "name": "Motherflame",
+  "description": "A fully featured full-stack e-commerce application with product catalog, cart drawer, checkout, and admin dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
